@@ -11,7 +11,7 @@ ALIVE_PIC = getenv("ALIVE_PIC")
 ALIVE_TEXT = getenv("ALIVE_TEXT", "NJ")
 PM_LOGGER = getenv("PM_LOGGER", "-1001882915379")
 LOG_GROUP = getenv("LOG_GROUP", "-1001882915379")
-GIT_TOKEN = getenv("GIT_TOKEN") #personal access token
+GIT_TOKEN = getenv("GIT_TOKEN", "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") #personal access token
 REPO_URL = getenv("REPO_URL", "https://github.com/Romeo-RJ/ROMEO-USERBOT")
 BRANCH = getenv("BRANCH", "master") #don't change
  
