@@ -1,23 +1,23 @@
 from os import getenv
 
-API_ID = int(getenv("API_ID", "6435225")) #optional
-API_HASH = getenv("API_HASH", "") #optional
+API_ID = int(getenv("API_ID", "15217822")) #optional
+API_HASH = getenv("API_HASH", "01224df6690e9f10fd85819cb1ef6f21") #optional
 
-SUDO_USERS = list(map(int, getenv("SUDO_USERS", "").split()))
-OWNER_ID = int(getenv("OWNER_ID", ""))
-MONGO_URL = getenv("MONGO_URL")
-BOT_TOKEN = getenv("BOT_TOKEN", "")
+SUDO_USERS = list(map(int, getenv("SUDO_USERS", "5127230582").split()))
+OWNER_ID = int(getenv("OWNER_ID", "1651260016"))
+MONGO_URL = getenv("MONGO_URL", "mongodb+srv://Oyehoye143:Oyehoye143@cluster0.dovd6yi.mongodb.net/?retryWrites=true&w=majority") 
+BOT_TOKEN = getenv("BOT_TOKEN", "5582879098:AAHz_k5_eN0e9l7tPMbqZ5T_5_3y3zKG_Bc")
 ALIVE_PIC = getenv("ALIVE_PIC")
-ALIVE_TEXT = getenv("ALIVE_TEXT")
-PM_LOGGER = getenv("PM_LOGGER")
-LOG_GROUP = getenv("LOG_GROUP")
+ALIVE_TEXT = getenv("ALIVE_TEXT", "NJ")
+PM_LOGGER = getenv("PM_LOGGER", "-1001882915379")
+LOG_GROUP = getenv("LOG_GROUP", "-1001882915379")
 GIT_TOKEN = getenv("GIT_TOKEN") #personal access token
 REPO_URL = getenv("REPO_URL", "https://github.com/Romeo-RJ/ROMEO-USERBOT")
 BRANCH = getenv("BRANCH", "master") #don't change
  
-STRING_SESSION1 = getenv("STRING_SESSION1", "")
-STRING_SESSION2 = getenv("STRING_SESSION2", "")
-STRING_SESSION3 = getenv("STRING_SESSION3", "")
+STRING_SESSION1 = getenv("STRING_SESSION1", "BQBjIgmr51DqgEwxnkGWgAWcuYC0ZiApS7kAoKd6Gnms4yy-Q0wTOwlahRz8BltQejfWnk1sGb_A9Cqk4tngKzNvrtjP-7ZfryTsKbyAxBL9S_LA2shqS4Q5nmkXqeqVBpzH5p1ArUpM8-8inew4ZqH3MxJzX41ZHRCqS38l46mBu3dW8lhyOMoiUPJon0B7TK-sldA5ljhoqT2CWJZfj2aOyxZ7MPiJm1YshkQTi3QKUmhfyXM2Tq2pQaFCUjpX0BU8I18v6aoIOkiJbcOwWxQWiz4N04kyft9ObNPO2ELJf99KIQUPULP0Appqcp93scY_HkLoQk5TmMGWULq6llINYmw6cAA")
+STRING_SESSION2 = getenv("STRING_SESSION2", "BQBGEcBh1F4hxx_6v5dzbbxYUMmLUyZxbVzOUvL0mbE39OIkrDDZTDNUOcbwkTI3OJKFFMOT0CLQ_Kllv4F2y9b8rU3mLwTEGtdqhXVlJcX4jIIcdQz7SIN8whoyllyEMwi1b3cbQ6n_emMy2CfnK4sjqovNr4R-HkAWjJBFbIqFy29w8jtA70lFOGCdLC1u7Le1AtrRSH9dQkQvNxIvy9ALJnq-bBSZvkogBl-zAOFwYN5SIUirhUFSjGyVAsUVty1cImza74eXLCHYBRZIxWP14ho3oZCwt97U7JuDUpDmZaayDtNh8tbvOVOKp0swp5KbJNc1eva9VZ7SqftI8ghjAAAAATGbVHYA")
+STRING_SESSION3 = getenv("STRING_SESSION3", "BQBWFk2RLe0Tq6lG1DmexymPUbYUtOteuhrZt7IBTGa9sGz_sfsoK7kV8rODBaizJ3k8ePNIEWkz3RDIVmvmdH185c3gyMktr-WOSX5G64qOqAA8Bj_BqScDyR2NVQV_CeTRI1MSylQOQgtqd02e_YjBcCwLeCBerbxnPc-3ySxd80q9GZav2r_TmZBoxLXhfb1RLrKHG4CSglBK8bAdo_ztWSPuveJ8mrROgyWRgKq5e3ZGhl1dafgl7OObr8zL6W5orUEqtAgVJ9dwNbXTs8O9TUHa-uTri-vdLRzICDHITPn8hBZB7y_9s8R2bJSmrNtLp2trGzINx2bGyjxUmRcHRyGowQA")
 STRING_SESSION4 = getenv("STRING_SESSION4", "")
 STRING_SESSION5 = getenv("STRING_SESSION5", "")
 STRING_SESSION6 = getenv("STRING_SESSION6", "")
